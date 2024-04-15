@@ -1,17 +1,47 @@
 
 # An introduction to RAG with Elastic
-### Presentation: [Presentation_name](workshop/Presentation_template.pptx)
+### Presentation: [Introduction to RAG](workshop/Presentation.pptx)
 
 ## Workshop description
 During the workshop you will learn what is Retrieval Augmented Generation, how it can increase trustability of LLM models and how to set up a RAG pipeline using Elastic.
 
 ## Requirements
-Do not forget to indicate Python version and any other tools
-+ add requirements.txt or conda.yml or docker image or Binder/Google Collab link
+
+Python version: >=3.8.5
+
 
 ## Usage
 * Clone the repository
-* Start { TOOL } and navigate to the workshop folder
+* Start Visual Studio Code and navigate to the solutions folder
+* Launch Jupyter App `jupyter notebook`
+
+## Notebooks
+
+### Question answering
+
+In the [`question-answering.ipynb`](solutions/question-answering.ipynb) notebook you'll learn how to:
+
+- Retrieve sample workplace documents from a given URL.
+- Set up an Elasticsearch client.
+- Chunk documents into 800-character passages with an overlap of 400 characters using the `CharacterTextSplitter` from `langchain`.
+- Use `OpenAIEmbeddings` from `langchain` to create embeddings for the content.
+- Retrieve embeddings for the chunked passages using OpenAI.
+- Persist the passage documents along with their embeddings into Elasticsearch.
+- Set up a question-answering system using `OpenAI` and `ElasticKnnSearch` from `langchain` to retrieve answers along with their source documents.
+
+### Chatbot
+
+In the [`chatbot.ipynb`](solutions/chatbot.ipynb) notebook you'll learn how to:
+
+- Retrieve sample workplace documents from a given URL.
+- Set up an Elasticsearch client.
+- Chunk documents into 800-character passages with an overlap of 400 characters using the `CharacterTextSplitter` from `langchain`.
+- Use `OpenAIEmbeddings` from `langchain` to create embeddings for the content.
+- Retrieve embeddings for the chunked passages using OpenAI.
+- Run hybrid search in Elasticsearch to find documents that answers asked questions.
+- Maintain conversational memory for follow-up questions.
+
+
 
 ## Video record
 Re-watch [this YouTube stream](https://www.youtube.com/live/TQdK9OsfHQk)
