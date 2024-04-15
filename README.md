@@ -1,6 +1,6 @@
 
 # An introduction to RAG with Elastic
-### Presentation: [Introduction to RAG](workshop/Introduction_to_RAG.pptx)
+### Presentation: [Introduction to RAG](workshop/Introduction_to_RAG.pdf)
 
 ## Workshop description
 During the workshop you will learn what is Retrieval Augmented Generation, how it can increase trustability of LLM models and how to set up a RAG pipeline using Elastic.
