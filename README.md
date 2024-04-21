@@ -12,7 +12,7 @@ For this workshop, you will need:
 - Python 3.6 or later
 - An Elastic deployment
   - We'll be using [Elastic Cloud](https://www.elastic.co/guide/en/cloud/current/ec-getting-started.html) for this example (available with a [free trial](https://cloud.elastic.co/registration?utm_source=github&utm_content=elasticsearch-labs-notebook))
-- OpenAI account
+- OpenAI account. [Where do I find my OpenAI API Key?](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
 
 
 ## Usage
