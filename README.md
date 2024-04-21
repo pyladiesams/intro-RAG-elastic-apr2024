@@ -5,14 +5,20 @@
 ## Workshop description
 During the workshop you will learn what is Retrieval Augmented Generation, how it can increase trustability of LLM models and how to set up a RAG pipeline using Elastic.
 
-## Requirements
+## Requirements 🧰
 
-Python version: >=3.8.5
+For this workshop, you will need:
+
+- Python 3.6 or later
+- An Elastic deployment
+  - We'll be using [Elastic Cloud](https://www.elastic.co/guide/en/cloud/current/ec-getting-started.html) for this example (available with a [free trial](https://cloud.elastic.co/registration?utm_source=github&utm_content=elasticsearch-labs-notebook))
+- OpenAI account
 
 
 ## Usage
 * Clone the repository
-* Start Visual Studio Code and navigate to the solutions folder
+* Start your favorite IDE and navigate to the solutions folder
+* Run `pip install -r requirements.txt`
 * Launch Jupyter App `jupyter notebook`
 
 ## Notebooks
